@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--<servlet>
+        <servlet-name>loginServlet</servlet-name>
+        &lt;!&ndash;访问对应处理的类&ndash;&gt;
+        <servlet-class>com.soft.servlets.LoginServlet</servlet-class>
+        &lt;!&ndash;负数是调用时初始化，正数（包括0）是服务器启动时初始化&ndash;&gt;
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        &lt;!&ndash;访问路径&ndash;&gt;
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>-->
+    <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+    </welcome-file-list>
+</web-app>
